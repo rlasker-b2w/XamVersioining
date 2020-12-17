@@ -1,8 +1,8 @@
 ﻿<linker>
-  <assembly fullname="VersionApp.20.1.0">
-    <namespace fullname="VersionApp._20._1._0" />
+  <assembly fullname="VersionApp.v20_1_0">
+    <namespace fullname="VersionApp.v20_1_0" />
   </assembly>
-  <assembly fullname="VersionApp.20.1.1">
-    <namespace fullname="VersionApp._20._1._1" />
+  <assembly fullname="VersionApp.v20_1_1">
+    <namespace fullname="VersionApp.v20_1_1" />
   </assembly>
 </linker>
