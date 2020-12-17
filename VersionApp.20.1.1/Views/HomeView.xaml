@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mvvm:ViewBase 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:mvvm="clr-namespace:VersionApp.Common.MVVM;assembly=VersionApp.Common"
+    x:Class="VersionApp.v20_1_1.Views.HomeView">
+    <ContentView.Content>
+        <StackLayout>
+            <Label Text="{Binding Title}" />
+            <Label Text="{Binding GlobalMessage}" />
+            <Label Text="{Binding OriginalMessage}" />
+            <Label Text="{Binding NewMessage}" />
+            <Button Text="Logout" Command="{Binding LogoutCommand}" />
+        </StackLayout>
+    </ContentView.Content>
+</mvvm:ViewBase>

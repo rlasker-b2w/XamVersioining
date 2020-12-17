@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>VersionApp.v20_1_0</RootNamespace>
+    <Version>20.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VersionApp.Common\VersionApp.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="AppShell.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Views\AboutView.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Views\HomeView.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>
